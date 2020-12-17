@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <style>
+        input.largerCheckbox {
+            width: 13px;
+            height: 13px;
+        }
+
+        div.b {
+            line-height: 1.8;
+        }
+    </style>
+    <link rel="shortcut icon" href="/assets/favicon.ico">
+    <link rel="stylesheet" href="./src/main.css">
+</head>
+
+<body>
+    <div class="container">
+        <form class="form" name="form3" onsubmit="selected()">
+            <h1 class="form__title">Select Courses</h1>
+            <table align=center cellspacing=15px cellpadding=5px>
+
+                <tr>
+                    <td>
+                        <h4>University Core:</h4>
+                        <div class="b" align="left">
+                            <input type="checkbox" class="largerCheckbox" name="checkBox1" id="checkBox1">
+                            <label for="checkBox1"> MAT1011 Calculas for Engineers 4 Credits</label><br>
+                            <input type="checkbox" class="largerCheckbox" name="checkBox1" id="checkBox2">
+                            <label for="checkBox2"> MAT2001 Statistics for Engineers 4 Credits</label><br>
+                            <input type="checkbox" class="largerCheckbox" name="checkBox1" id="checkBox3">
+                            <label for="checkBox3"> PHY1001 Engineering Physics 4 Credits</label><br>
+                            <input type="checkbox" class="largerCheckbox" name="checkBox1" id="checkBox4">
+                            <label for="checkBox4"> CHY1001 Engineering Chemistry 4 Credits</label><br>
+                            <input type="checkbox" class="largerCheckbox" name="checkBox1" id="checkBox5">
+                            <label for="checkBox5"> STS1001 Soft Skills 1 Credit</label><br>
+                        </div>
+                    </td>
+                    <td>
+                        <h4>Program Core:</h4>
+                        <div class="b" align="left">
+                            <input type="checkbox" class="largerCheckbox" name="checkBox2" id="checkBox1">
+                            <label for="checkBox1"> CSE2001 Digital Logic and Design 4 Credits</label><br>
+                            <input type="checkbox" class="largerCheckbox" name="checkBox2" id="checkBox2">
+                            <label for="checkBox2"> CSE2002 Computer Architecture 4 Credits</label><br>
+                            <input type="checkbox" class="largerCheckbox" name="checkBox2" id="checkBox3">
+                            <label for="checkBox3"> CSE2003 Software Engineering 4 Credits</label><br>
+                            <input type="checkbox" class="largerCheckbox" name="checkBox2" id="checkBox4">
+                            <label for="checkBox4"> CSE2004 TOC and Compiler 4 Credits</label><br>
+                            <input type="checkbox" class="largerCheckbox" name="checkBox2" id="checkBox5">
+                            <label for="checkBox5"> CSE2005 Operating System 4 Credits</label><br>
+                        </div>
+                    </td>
+                    
+                </tr>
+
+<tr>
+    <td>
+
+        <h4>University Elective:</h4>
+        <div class="b" align="left">
+            <input type="checkbox" class="largerCheckbox" name="checkBox3" id="checkBox1">
+            <label for="checkBox1"> MAT2011 Complex Theory 4 Credits</label><br>
+            <input type="checkbox" class="largerCheckbox" name="checkBox3" id="checkBox2">
+            <label for="checkBox2"> MAT3001 Applied Numerical Methods 4 Credits</label><br>
+            <input type="checkbox" class="largerCheckbox" name="checkBox3" id="checkBox3">
+            <label for="checkBox3"> MGT1001 Knowledge Management 4 Credits</label><br>
+            <input type="checkbox" class="largerCheckbox" name="checkBox3" id="checkBox4">
+            <label for="checkBox4"> ENG2001 Communicative English 2 Credits</label><br>
+            <input type="checkbox" class="largerCheckbox" name="checkBox3" id="checkBox5">
+            <label for="checkBox5"> MGT2002 Resource Management 3 CreditS</label><br>
+        </div>
+    </td>
+
+    <td>
+
+        <h4>Program Elective:</h4>
+        <div class="b" align="left">
+            <input type="radio"  name="pe" id="radio1">
+            <label for="radio1"> CSE2709 Image Processing 4 Credits</label><br>
+            <input type="radio"  name="pe" id="radio2">
+            <label for="radio2"> CSE3010 Machine Learning 4 Credits</label><br>
+            <input type="radio"  name="pe" id="radio3">
+            <label for="radio3"> CSE4312 Internet of Things 4 Credits</label><br>
+            <input type="radio"  name="pe" id="radio4">
+            <label for="radio4"> CSE3232 Virtualisation 4 Credits</label><br>
+            <input type="radio"  name="pe" id="radio5">
+            <label for="radio"> CSE4109 Cyber Security 4 Credits</label><br>
+        </div>
+    </td>
+</tr>
+
+
+
+                <tr>
+                    <td colspan=2>
+
+                        <button class="form__button" type="submit">Register</button>
+                    </td>
+
+                </tr>
+
+
+    </div>
+
+
+
+    </form>
+
+
+    <script src="register.js"></script> 
+
+</body>
+</html>
